@@ -740,3 +740,12 @@ body.page-ready .hero-panel {
 #dev:hover {
   text-decoration: underline;
 }
+
+/* Caso haja mais uma presença VIP retirar: */
+@media (min-width: 980px) {
+  .people-grid-vip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    gap: 1rem;
+  }
+}
